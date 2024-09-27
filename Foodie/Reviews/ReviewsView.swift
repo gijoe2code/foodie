@@ -12,7 +12,7 @@ import SwiftData
 struct ReviewsView: View {
 
     @Environment(\.modelContext) private var modelContext
-    @Bindable var restaurant: Restaurant
+    var restaurant: Restaurant
 
     var body: some View {
         VStack(spacing: 0) {
